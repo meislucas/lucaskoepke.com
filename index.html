@@ -5,87 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucas Köpke</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="/android-icon-192x192.png"
-    />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/b896c5dc04.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/b896c5dc04.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <div class="header">
-      <h1>Lucas Köpke</h1>
-      <p>I like HTML/CSS/JS</p>
+      <div>
+       <a href="https://www.lucaskoepke.com"><img  id="profile" src="bearbeitet2.png" alt="Picture of Lucas"></img></a>
+      </div>
+      <div id="title">
+        <h1>Lucas Köpke</h1>
+        <h2>DevOps enthusiast</h2>
+      </div>
+      <div id="empty"></div>
+      <div id="links">
+       <a href="https://github.com/meislucas"><i class="fa-brands fa-github"></i></a>
+       <a href="https://www.linkedin.com/in/lucas-k%C3%B6pke/"><i class="fa-brands fa-linkedin"></i></a>
+       <a href="mailto:lucas.koepke98@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
     </div>
-
-    <div class="navbar">
-      <a href="/" class="left"><i class="fa-solid fa-house"></i></a>
-      <a href="https://www.linkedin.com/in/lucas-k%C3%B6pke/"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
-      <a href="https://github.com/meislucas"
-        ><i class="fa-brands fa-github"></i
-      ></a>
-      <a href="#">link</a>
-      <a href="#">link</a>
-    </div>
-
-    <div class="row">
-      <div class="side">...</div>
-      <div class="main">...</div>
-    </div>
-
-    <h1>Hello world!</h1>
-    <p>Hello world</p>
+    <section>
+      <p>Hi, I am Lucas</p>
+	    <p>I am a computer science student with the ambition to become a DevOps Engineer.</p>
+      <h3>Programming:</h3>
+      <div id="skills">
+        <div>
+          <p>My current technical skills</p>
+            <ul>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>Bootstrap</li>
+            </ul>
+         </div>
+        <div> 
+          <p>Technical skills that I am currently studying</p>
+            <ul>
+             <li>Python</li>
+             <li>JavaScript</li>
+             <li>Terraform</li>
+             <li>Kubernetes</li>
+             <li>Docker</li>
+             <li>AWS/Azure Cloud infrastructure</li>
+         </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Projects (not much yet):</h3>
+      <div id="burger">
+        <div class="project">
+          <p>My favourite video:</p>
+         
+        </div>
+        <div class="project">
+          <p>My favourite game:</p>
+          
+        </div>
+        <div class="project">
+          <p>My favourite book:</p>
+          
+        </div>
+        <div class="project">
+          <p>My favourite food:</p> 
+        </div>
+      </div>
+    </section>
   </body>
-
-  <footer>&copy; 2022 Lucas Köpke</footer>
 </html>
