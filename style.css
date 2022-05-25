@@ -1,84 +1,71 @@
 body {
-  height:100vh; 
-  margin:0;
-  font-family: "Roboto Slab", serif;
-  background-color: lightgray;
-  display: flex;
-  flex-direction: column;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-size: 1.3em;
+  padding-left: 96px;
+  padding-top: 5vw;
+  padding-right:96px;
 }
-
-.header {
-  padding: 80px;
-  text-align: left;
-  background: #888f8d;
-  color: white;
-}
-
-.header h1 {
-  font-size: 40px;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-.navbar a.left {
-  float: left;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
+i {
   color: black;
 }
-
-* {
-  box-sizing: border-box;
+ul {
+  padding: 0;
 }
-
-.row {
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1em;
+}
+.header {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 5vw;
+  gap: 40px;
 }
-
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+#profile {
+  width: 10vw;
+  height: auto;
 }
-
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
+#empty {
+  flex-grow: 1;
 }
-
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
+#links {
+  font-size: 2em;
+  
 }
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+#skills {
+  display: flex;
+  gap: 2em;
 }
-
-footer {
-  min-height:50px;
-  margin-top: auto;
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
+#burger {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+.project {
+   width: 40%;
+   padding: 20px;
+   border-width: 2px;
+   border-radius: 15px;
+   border-color: #ebebeb;
+   border-style: solid;
+}
+@media (max-width: 700px) {
+	body {
+	  padding: 60px;
+	  font-size: 10px;
+	}
+	#profile {
+	  width: 20vw;
+	  height: auto;
+	}
+	#burger {
+	  justify-content: center;
+	}
+	.project {
+      width:80%;
+    }
 }
