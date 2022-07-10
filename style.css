@@ -1,0 +1,71 @@
+body {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-size: 1.3em;
+  padding-left: 96px;
+  padding-top: 5vw;
+  padding-right:96px;
+}
+i {
+  color: black;
+}
+ul {
+  padding: 0;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1em;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 5vw;
+  gap: 40px;
+}
+#profile {
+  width: 10vw;
+  height: auto;
+}
+#empty {
+  flex-grow: 1;
+}
+#links {
+  font-size: 2em;
+  
+}
+#skills {
+  display: flex;
+  gap: 2em;
+}
+#burger {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+.project {
+   width: 40%;
+   padding: 20px;
+   border-width: 2px;
+   border-radius: 15px;
+   border-color: #ebebeb;
+   border-style: solid;
+}
+@media (max-width: 700px) {
+	body {
+	  padding: 60px;
+	  font-size: 10px;
+	}
+	#profile {
+	  width: 20vw;
+	  height: auto;
+	}
+	#burger {
+	  justify-content: center;
+	}
+	.project {
+      width:80%;
+    }
+}
